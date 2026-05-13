@@ -40,7 +40,7 @@ function jogar(escolhaUsuario) {
 
 
     if (escolhaUsuario === escolhaComputador) {
-        mensagem = 'Empate!'  // guarda na variavel mensagem
+        mensagem = 'Empate!'  // guarda na variavel mensagem.
     } else if (
         (escolhaUsuario === GAME_OPTIONS.ROCK && escolhaComputador === GAME_OPTIONS.SCISSORS) ||  //Jogador vence
         (escolhaUsuario === GAME_OPTIONS.PAPER && escolhaComputador === GAME_OPTIONS.ROCK) ||    //Jogador vence
